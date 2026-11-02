@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "killing-we-toolproto_jd140"
+name = "killing-we-query_rewrite_drift_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出工具调用协议工程师·查询改写的语义漂移上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://killing-we.github.io"
-Repository = "https://github.com/killing-we/toolproto_jd140"
-Issues = "https://github.com/killing-we/toolproto_jd140/issues"
+Repository = "https://github.com/killing-we/query_rewrite_drift_dedup"
+Issues = "https://github.com/killing-we/query_rewrite_drift_dedup/issues"
 
 [project.scripts]
-toolproto_jd140 = "toolproto_jd140:main"
+query_rewrite_drift_dedup = "query_rewrite_drift_dedup:main"
 
 [tool.setuptools]
-py-modules = ["toolproto_jd140"]
+py-modules = ["query_rewrite_drift_dedup"]
